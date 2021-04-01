@@ -43,16 +43,16 @@ body.royal_loader {
     color: #EEEEEE;
     text-align: center;
     opacity: 0;
-    -webkit-transition: -webkit-transform 0.9s linear;
-       -moz-transition: -moz-transform 0.9s linear;
-        -ms-transition: -ms-transform 0.9s linear;
-         -o-transition: -o-transform 0.9s linear;
-            transition: transform 0.9s linear;
-    -webkit-animation: fly 0.6s;
-       -moz-animation: fly 0.6s;
-        -ms-animation: fly 0.6s;
-         -o-animation: fly 0.6s;
-            animation: fly 0.6s;
+    -webkit-transition: -webkit-transform 0.3s linear;
+       -moz-transition: -moz-transform 0.3s linear;
+        -ms-transition: -ms-transform 0.3s linear;
+         -o-transition: -o-transform 0.3s linear;
+            transition: transform 0.3s linear;
+    -webkit-animation: fly 0.3s;
+       -moz-animation: fly 0.3s;
+        -ms-animation: fly 0.3s;
+         -o-animation: fly 0.3s;
+            animation: fly 0.3s;
 }
 #royal_preloader.number .percentage {
     color: #FFFFFF;
@@ -70,11 +70,11 @@ body.royal_loader {
     font-size: 30px;
     top: 50%;
     left: 50%;
-    -webkit-transition: all 0.9s linear 0.5s;
-       -moz-transition: all 0.9s linear 0.5s;
-        -ms-transition: all 0.9s linear 0.5s;
-         -o-transition: all 0.9s linear 0.5s;
-            transition: all 0.9s linear 0.5s;
+    -webkit-transition: all 0.3s linear 0.5s;
+       -moz-transition: all 0.3s linear 0.5s;
+        -ms-transition: all 0.3s linear 0.5s;
+         -o-transition: all 0.3s linear 0.5s;
+            transition: all 0.3s linear 0.5s;
 }
 #royal_preloader.text .loader {
     color: #FFFFFF;
@@ -97,11 +97,11 @@ body.royal_loader {
     background-color: #000000;
     opacity: 0.7;
     filter: alpha(opacity=70);
-    -webkit-transition: left 0.9s linear;
-       -moz-transition: left 0.9s linear;
-        -ms-transition: left 0.9s linear;
-         -o-transition: left 0.9s linear;
-            transition: left 0.9s linear;
+    -webkit-transition: left 0.3s linear;
+       -moz-transition: left 0.3s linear;
+        -ms-transition: left 0.3s linear;
+         -o-transition: left 0.3s linear;
+            transition: left 0.3s linear;
 }
 #royal_preloader.logo .loader {
     width: 80px;
@@ -124,11 +124,11 @@ body.royal_loader {
     height: 100%;
     opacity: 0.7;
     filter: alpha(opacity=70);
-    -webkit-transition: bottom 0.9s linear;
-       -moz-transition: bottom 0.9s linear;
-        -ms-transition: bottom 0.9s linear;
-         -o-transition: bottom 0.9s linear;
-            transition: bottom 0.9s linear;
+    -webkit-transition: bottom 0.3s linear;
+       -moz-transition: bottom 0.3s linear;
+        -ms-transition: bottom 0.3s linear;
+         -o-transition: bottom 0.3s linear;
+            transition: bottom 0.3s linear;
 }
 #royal_preloader.logo .percentage {
     position: absolute;
