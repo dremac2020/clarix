@@ -4213,8 +4213,8 @@
 																tlyy = calcy + Math.round(Math.random()*200-100);
 													}
 
-													if (nextcaption.hasClass('lfr') || nextcaption.hasClass('skewfromright'))
-														tlxx = 15+opt.width;
+													/*if (nextcaption.hasClass('lfr') || nextcaption.hasClass('skewfromright'))
+														tlxx = 30+opt.width;*/
 
 
 
