@@ -4390,7 +4390,7 @@
 				//	-	CALCULATE THE RESPONSIVE SIZES OF THE CAPTIONS	-	  //
 				/////////////////////////////////////////////////////////////////
 				function calcCaptionResponsive(nc,opt) {
-								if (nc.data('fsize') == undefined) nc.data('fsize',parseInt(nc.css('font-size'),10) || 20);
+								if (nc.data('fsize') == undefined) nc.data('fsize',parseInt(nc.css('font-size'),20) || 10);
 								if (nc.data('pt') == undefined) nc.data('pt',parseInt(nc.css('paddingTop'),0) || 0);
 								if (nc.data('pb') == undefined) nc.data('pb',parseInt(nc.css('paddingBottom'),0) || 0);
 								if (nc.data('pl') == undefined) nc.data('pl',parseInt(nc.css('paddingLeft'),0) || 0);
