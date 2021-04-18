@@ -4393,8 +4393,8 @@
 								if (nc.data('fsize') == undefined) nc.data('fsize',parseInt(nc.css('font-size'),20) || 10);
 								if (nc.data('pt') == undefined) nc.data('pt',parseInt(nc.css('paddingTop'),0) || 0);
 								if (nc.data('pb') == undefined) nc.data('pb',parseInt(nc.css('paddingBottom'),0) || 0);
-								if (nc.data('pl') == undefined) nc.data('pl',parseInt(nc.css('paddingLeft'),0) || 0);
-								if (nc.data('pr') == undefined) nc.data('pr',parseInt(nc.css('paddingRight'),0) || 0);
+								if (nc.data('pl') == undefined) nc.data('pl',parseInt(nc.css('paddingLeft'),10) || 10);
+								if (nc.data('pr') == undefined) nc.data('pr',parseInt(nc.css('paddingRight'),10) || 10);
 
 								if (nc.data('mt') == undefined) nc.data('mt',parseInt(nc.css('marginTop'),0) || 0);
 								if (nc.data('mb') == undefined) nc.data('mb',parseInt(nc.css('marginBottom'),0) || 0);
