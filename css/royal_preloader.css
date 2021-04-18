@@ -48,11 +48,11 @@ body.royal_loader {
         -ms-transition: -ms-transform 0.9s linear;
          -o-transition: -o-transform 0.9s linear;
             transition: transform 0.9s linear;
-    -webkit-animation: fly 0.9s;
-       -moz-animation: fly 0.9s;
-        -ms-animation: fly 0.9s;
-         -o-animation: fly 0.9s;
-            animation: fly 0.9s;
+    -webkit-animation: fly 1s;
+       -moz-animation: fly 1s;
+        -ms-animation: fly 1s;
+         -o-animation: fly 1s;
+            animation: fly 1s;
 }
 #royal_preloader.number .percentage {
     color: #FFFFFF;
@@ -67,7 +67,7 @@ body.royal_loader {
     padding-top:20px;
     width: 180px;
     position: absolute;
-    font-size: 30px;
+    font-size:15px;
     top: 50%;
     left: 50%;
     -webkit-transition: all 0.9s linear 0.9s;
