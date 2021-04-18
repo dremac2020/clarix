@@ -4406,7 +4406,7 @@
 								if (nc.data('bl') == undefined) nc.data('bl',parseInt(nc.css('borderLeftWidth'),0) || 0);
 								if (nc.data('br') == undefined) nc.data('br',parseInt(nc.css('borderRightWidth'),0) || 0);
 
-								if (nc.data('lh') == undefined) nc.data('lh',parseInt(nc.css('lineHeight'),10) || 10);
+								if (nc.data('lh') == undefined) nc.data('lh',parseInt(nc.css('lineHeight'),10) || 20);
 								if (nc.data('minwidth') == undefined) nc.data('minwidth',parseInt(nc.css('minWidth'),0) || 0);
 								if (nc.data('minheight') == undefined) nc.data('minheight',parseInt(nc.css('minHeight'),0) || 0);
 								if (nc.data('maxwidth') == undefined) nc.data('maxwidth',parseInt(nc.css('maxWidth'),0) || "none");
