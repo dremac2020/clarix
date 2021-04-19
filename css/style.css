@@ -585,7 +585,7 @@ p.tar {
     margin-bottom:32px;
 }
 .section-education .details {
-    width:39%;
+    width:60%;
     float:left;
     height:120px;
     background-color:#fff;
@@ -597,10 +597,10 @@ p.tar {
 .section-education .year {
     background-color:#424242;
     height:120px;
+    float:left;
     border-radius:5px;
     margin-left:0.5%;
     margin-right:0.5%;
-    float:left;
     width:20%;
     z-index:500;
     position:relative;
@@ -609,7 +609,7 @@ p.tar {
 .section-education .year h2 {
     color:#fff;
     font-size:17px;
-    margin-top:22%;
+    margin-top:35%;
     text-align:center;
 }
 .reddot {
@@ -623,13 +623,14 @@ p.tar {
 .left-dot {
     left:-15px;
     top:44px;
+    display:none;
 }
 .right-dot {
     top:44px;
     right:-15px;
 }
 .details.higherz {
-    z-index:300;
+    z-index:200;
 }
 .content h2 {
     padding:0px;
@@ -657,7 +658,8 @@ p.tar {
     /*position:relative;*/
 }
 .details.higherz .content {
-    padding-left:15px;
+    padding-left:20px;
+    padding-top:10px;
 }
 .year .content {
     padding:0px;
@@ -1676,7 +1678,7 @@ ol.comment-list {
 }
 .quote-post {
     text-align:center;
-    background-color:#f4c946;
+    background-color:#00a1a1;
     color:#fff;
     padding:20px 10px;
 }

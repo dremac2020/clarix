@@ -282,6 +282,7 @@
     display: none;
     }
     .timeline-marker.right,.timeline-marker.left{
+        display: none;
         position: relative;
 
     }
@@ -345,9 +346,12 @@
         float: none;
     }
 
-    .education .details, .education .year {
+    .education .details, {
         width: 100%;
         margin-bottom: 10px;
+    }
+    .education .year {
+        display: none;
     }
     .section-education .year h2{
         margin-top:11%;
